@@ -1,9 +1,12 @@
-window.addEventListener('DOMContentLoaded', async (e) => {
+window.addEventListener('DOMContentLoaded', async(e) => {
 
     console.log('Hi, I\'m here to inject some code...');
+    document.cookie = "username=ims; path=/";
+    document.cookie = "pass=passw0rd; path=/";
+
 
     // Gets the data from remote
-    const getEntries = async () => {
+    const getEntries = async() => {
         const endpoint = 'https://626b082ce5274e6664c6cc22.mockapi.io/vulnycao/entries';
         const response = await fetch(endpoint);
         return await response.json();
@@ -35,15 +38,10 @@ window.addEventListener('DOMContentLoaded', async (e) => {
         brandNewEntryItem.querySelector(likes).innerHTML += dbItem.likes;
         brandNewEntryItem.querySelector(notlikes).innerHTML += dbItem.notlikes;
 
-        const s = document.createElement('p');
-        maliciousString = '\')); console.log(\'hei\');';
-        s.appendChild(document.createTextNode('<!--' + maliciousString));
-        brandNewEntryItem.appendChild(s);
         entriesContainer.appendChild(brandNewEntryItem);
 
     });
 
     entriesContainer.removeChild(entryItem);
-
 
 });

