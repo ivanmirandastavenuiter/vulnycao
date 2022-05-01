@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "user": "Iván Miranda",
+        "postedAt": "1 month ago",
+        "entry": "Yes, whatever in the morning",
+        "likes": 13,
+        "notlikes": 2
+    },
+    {
+        "id": 2,
+        "user": "Matthew McConaughey",
+        "postedAt": "5 minutes ago",
+        "entry": "This is an aaamazement",
+        "likes": 4,
+        "notlikes": 8
+    },
+    {
+        "id": 3,
+        "user": "San Chin Choon",
+        "postedAt": "1 day ago",
+        "entry": "I did sell those masks ;)",
+        "likes": 2345,
+        "notlikes": 4
+    }
+]
+

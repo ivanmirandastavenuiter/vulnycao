@@ -1,0 +1,92 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+div.dv-lvl-1.main-container {
+    width: 100vw;
+    background: #662181;
+    padding: .1px;
+}
+
+div.dv-lvl-2.entries-container {
+    width: 80%;
+    /* height: 80%; */
+    background: #fff;
+    border-radius: 20px;
+    margin: 50px auto;
+    padding: .1px;
+    box-shadow: 1px 1px 25px 3px #000;
+}
+
+div.intermediate-wrapper {
+    position: relative;
+    width: 80%;
+    margin: 100px 200px;
+}
+
+div.dv-lvl-3.forum-greeting {
+    width: 50%;
+}
+
+h1.he-lvl-4.greeting-heading {
+    font-family: 'Inter', sans-serif;
+}
+
+p.par-lvl-4.greeting-message {
+    font-family: 'Inter', sans-serif;
+}
+
+p.par-lvl-4.greeting-message span {
+    color:#8f1919;
+    font-weight: bold;
+}
+
+div.dv-lvl-3.forum-entry {
+    width: 80%;
+    margin: 50px 0;
+    box-shadow: 1px 1px 10px 1px #000;
+    font-family: 'Inter', sans-serif;
+    border-radius: 20px;
+}
+
+div.dv-lvl-4.author-container {
+    display: flex;
+}
+
+p.par-lvl-5.entry-author {
+    font-size: 0.8em;
+    font-weight: bold;
+    padding: 1.2em;
+    
+}
+
+p.par-lvl-5.entry-author span {
+    font-size: 0.8em;
+    font-weight: bold;
+    padding: .5em;
+    color: #8f8f8f;
+}
+
+div.dv-lvl-4.entry-likes {
+    display: flex;
+}
+
+p.par-lvl-5.entry-message {
+    padding: 1.2em;
+}
+
+div.dv-lvl-4.entry-likes {
+    padding: 1.2em;
+    padding: 2em;
+}
+
+div.dv-lvl-4.entry-likes span {
+    margin: 10px;
+    color:#8f1919;
+}
+
+div.dv-lvl-4.entry-likes span i {
+    margin: 7px;
+    color: #8f8f8f;
+}
