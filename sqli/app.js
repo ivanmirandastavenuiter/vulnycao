@@ -14,7 +14,6 @@ app.post('/login', (req, res) => {
     connectNExecuteQuery(maliciousUserInput, res);
 })
 
-
 app.listen(port, () => {
     console.log(`Listening on port ${port}`)
 })
